@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: whitesmoke;
+  color: #6d0202;
+  margin: 0;
+}
+
+header {
+  border: thin solid white;
+  background-image: url(images/cardsbanner.png);
+  height: 235px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #f1f1f1;
+  border: 2px solid #555;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+nav li {
+  text-align: center;
+}
+
+#left, #center, #right {
+  padding: 2%;
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+#left img, #center img, #right img {
+  display: block;
+  margin: 0 auto;
+}
+
+#left {
+  border-right: thin solid rgb(172, 6, 6);
+}
+
+#right {
+  border-left: thin solid rgb(172, 6, 6);
+}
+
+h2 {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Viner Hand ITC', 'Brush Script MT', 'Brush Script Std', cursive;
+}
+
+footer {
+  clear: both;
+  border: thick outset red;
+}
